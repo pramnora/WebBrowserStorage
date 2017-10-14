@@ -70,56 +70,68 @@
 
   <main>
 
-  <h2>Write...</h2> 
+  <h2>Write</h2> 
 
-  <form name="frm1" method="get" action="javascript:write()">
-   Enter key:
-   <br>
-   <input type="text" name="txtKey">
-   <br>
-   Enter value:
-   <br>
-   <input type="text" name="txtValue">
-   <br><br>
-   <input type="reset" value="Clear Form">
-   <input type="submit" value="Save" >
-  </form>
+  <blockquote>
+
+   <form name="frm1" method="get" action="javascript:write()">
+    Enter key:
+    <input type="text" name="txtKey">
+    Value:
+    <input type="text" name="txtValue">
+    <br><br>
+    <input type="reset" value="Clear Form">
+    <input type="submit" value="Save" >
+   </form>
+
+  </blockquote>
 
   </main>
 
   <hr>
 
-  <h2>Remove...</h2> 
+  <h2>Remove</h2> 
 
-  <form name="frm2" method="get" action="javascript:remove()">
-   Enter key:
-   <br>
-   <input type="text" name="txtKey">
-   <br><br>
-   <input type="reset" value="Clear Form">
-   <input type="submit" value="Remove Item" >
-  </form>
+  <blockquote>
+
+   <form name="frm2" method="get" action="javascript:remove()">
+    Enter key:
+    <br>
+    <input type="text" name="txtKey">
+    <br><br>
+    <input type="reset" value="Clear Form">
+    <input type="submit" value="Remove Item">
+   </form>
+
+  </blockquote>
 
   <hr>
 
-  <h2>Show ALL...</h2> 
+  <h2>Show ALL</h2> 
 
-  <form name="frm3" method="get" action="javascript:showAll()">
-   <input type="submit" value="Show Web Browser localStorage" >
-  </form>
+  <blockquote>
+
+   <form name="frm3" method="get" action="javascript:showAll()">
+    <input type="submit" value="Show Web Browser localStorage" >
+   </form>
+
+  </blockquote>
 
   <div id="idDisplay"></div>
 
   <hr>
 
-  <h2>Clear ALL...</h2> 
+  <h2>Clear ALL</h2> 
 
-  <form name="frm4" method="get" action="javascript:clearAll()">
-   <input type="submit" value="Clear Web Browser localStorage" >
-  </form
+  <blockquote>
+
+   <form name="frm4" method="get" action="javascript:clearAll()">
+    <input type="submit" value="Clear Web Browser localStorage" >
+   </form>
+
+  </blockquote>
 
   </main>
-
 
   <hr>
 
