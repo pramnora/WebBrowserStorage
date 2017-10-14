@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ <head> 
+
+  <meta charset="utf-8">
+
+  <title>Local Storage</title>
+
+  <script>
+
+  function write(){
+            frm1Key = document.frm1.txtKey.value; 
+          frm1Value = document.frm1.txtValue.value; 
+          localStorage.setItem(frm1Key,frm1Value);
+  }
+
+  function remove(){
+            frmKey = document.frm2.txtKey.value; 
+          localStorage.removeItem(frmKey);
+  }
+
+  function showAll(){
+   // *** (NOTE: There is no specific item key order display; but, instead, the order is mixed up during output;
+   //            so, if the keys were entered: key1,key2,key3; the output might actually look like: key3,key1,key2.) 
+   var outMsg = "Number of items: " + localStorage.length + "<br>";
+   for (var intEachItem = 0; intEachItem < localStorage.length; intEachItem ++){
+    outMsg += "" + intEachItem + "> " + localStorage.key(intEachItem) + "<br>";
+   }
+   display = document.getElementById('idDisplay');
+   display.innerHTML = outMsg;
+  }
+  
+  function clearAll(){
+   localStorage.clear();
+  }
+
+  </script>
+
+  <style type="text/css">
+
+   body{
+    font-family:arial,verdana,sans-serif;
+   }
+
+   header{
+    text-align:center;
+   }
+
+   footer{
+    text-align:right;
+   }
+
+  </style>
+ 
+ </head>
+
+ <body>
+
+  <header>
+
+   <h1>Web Browser Storage Methods</h1>
+
+   <h2>localStorage</h2> 
+
+  </header>
+
+  <hr>
+
+  <main>
+
+  <h2>Write...</h2> 
+
+  <form name="frm1" method="get" action="javascript:write()">
+   Enter key:
+   <br>
+   <input type="text" name="txtKey">
+   <br>
+   Enter value:
+   <br>
+   <input type="text" name="txtValue">
+   <br><br>
+   <input type="reset" value="Clear Form">
+   <input type="submit" value="Save" >
+  </form>
+
+  </main>
+
+  <hr>
+
+  <h2>Remove...</h2> 
+
+  <form name="frm2" method="get" action="javascript:remove()">
+   Enter key:
+   <br>
+   <input type="text" name="txtKey">
+   <br><br>
+   <input type="reset" value="Clear Form">
+   <input type="submit" value="Remove Item" >
+  </form>
+
+  <hr>
+
+  <h2>Show ALL...</h2> 
+
+  <form name="frm3" method="get" action="javascript:showAll()">
+   <input type="submit" value="Show Web Browser localStorage" >
+  </form>
+
+  <div id="idDisplay"></div>
+
+  <hr>
+
+  <h2>Clear ALL...</h2> 
+
+  <form name="frm4" method="get" action="javascript:clearAll()">
+   <input type="submit" value="Clear Web Browser localStorage" >
+  </form
+
+  </main>
+
+
+  <hr>
+
+  <footer>
+
+   <p>
+    Email:
+    <a href="mailto:pramnora@yahoo.com">
+     pramnora@yahoo.com
+    </a>
+    <br>
+    <b>
+     &copy;2017, Mr. Paul Ramnora./All rights reserved.
+    </b>
+    <br>
+    Page created: <i>13:36 14/10/2017</i>
+    <br>
+    Last updated: <i>13:36 14/10/2017</i>
+   </p>
+
+  </footer>
+
+ </body>
+
+</html>
