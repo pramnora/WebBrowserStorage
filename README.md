@@ -7,5 +7,6 @@ Web browser storage: Local Storage and Session storage code
 
 ###Video tutorials
 
-JavaScript Storage Interface sessionStorage localStorage Tutorial 
-https://www.youtube.com/watch?v=klLMeL7I4O0 
+JavaScript Storage Interface sessionStorage localStorage Tutorial  
+https://www.youtube.com/watch?v=klLMeL7I4O0  
+
