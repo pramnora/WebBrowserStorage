@@ -53,9 +53,10 @@ NOTE(5): The data entered can be of multiple different types:
 
 NOTE(6): The web browser storage limit is set to: 5MB.  
 
-NOTE(7): a. localStorage, lasts permanently; until both it's 'name/value' pair are, quite deliberately, cleared;  
+NOTE(7): 
+a. localStorage, lasts permanently; until both it's 'name/value' pair are, quite deliberately, cleared;  
             data may be cleared either: programatically/or else, through using web browser controls.  
-         b. sessionStorage, is impermanent...lasting only up until when the web browser is closed/  
+b. sessionStorage, is impermanent...lasting only up until when the web browser is closed/  
             nor will it's 'name/value' pairs be transferred over into a 'new' tab window.  
 
 ## Links
