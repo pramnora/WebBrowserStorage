@@ -56,7 +56,7 @@ NOTE(6): The web browser storage limit is set to: 5MB.
 NOTE(7):  
 1 localStorage, lasts permanently; until both it's 'name/value' pair are, quite deliberately, cleared;  
             data may be cleared either: programatically/or else, through using web browser controls.  
-2 sessionStorage, is impermanent...lasting only up until when the web browser is closed/  
+2 sessionStorage, is impermanent...lasting only up until when the web browser window is closed/  
             nor will it's 'name/value' pairs be transferred over into a 'new' tab window.  
 
 ## Links
