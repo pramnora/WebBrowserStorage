@@ -51,7 +51,7 @@ NOTE(5): The data entered can be of multiple different types:
          However, it's worth nothing that all data, including both:   
          'keyName,Value', is stored in the form of being 'strings'.  
 
-NOTE(6): The web browser storage limit is set to: 5MB.  
+NOTE(6): The web browser storage limit is set to: 10MB(localStorage)/5MB(sessionStorage).  
 
 NOTE(7):  
 1 localStorage, lasts permanently; until both it's 'name/value' pair are, quite deliberately, cleared;  
