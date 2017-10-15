@@ -66,3 +66,7 @@ NOTE(7):
 JavaScript Storage Interface sessionStorage localStorage Tutorial  / (Adam Khoury)  
 https://www.youtube.com/watch?v=klLMeL7I4O0  
 
+cookies vs localStorage vs sessionStorage - Beau teaches JavaScript  
+https://www.youtube.com/watch?v=AwicscsvGLg  
+
+
