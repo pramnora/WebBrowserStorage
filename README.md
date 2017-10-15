@@ -59,6 +59,9 @@ NOTE(7):
 2 sessionStorage, is impermanent...lasting only up until when the web browser window is closed/  
             nor will it's 'name/value' pairs be transferred over into a 'new' tab window.  
 
+NOTE(8): Both local/session storage only exists inside of the users local computer machine's web browser.    
+         (If you wish to exchange data with a 'web server'; then, you'd have to use cookies, instead.)  
+
 ## Links
 
 ###Video tutorials
